@@ -1,17 +1,17 @@
 class Quorum < Formula
   desc "CLI entrypoint for Quorum"
   homepage "https://github.com/xudesheng/quorum"
-  version "0.5.6"
+  version "0.5.7"
   license "MIT OR Apache-2.0"
 
   on_macos do
-    url "https://github.com/xudesheng/quorum/releases/download/v0.5.6/quorum-v0.5.6-macos-universal.zip"
-    sha256 "353170ffac7d2de46fe73339dbb6032e641540ddfc5eee2c222f2b23756798bc"
+    url "https://github.com/xudesheng/quorum/releases/download/v0.5.7/quorum-v0.5.7-macos-universal.zip"
+    sha256 "92132862170dbc15deebbf800c8b218991712dc83210f52a6b52083b8ed17609"
   end
 
   on_linux do
-    url "https://github.com/xudesheng/quorum/releases/download/v0.5.6/quorum-v0.5.6-linux-x64-musl.tar.gz"
-    sha256 "680e5cf89228fafb510410c434670985fca76b54d6a61d92da9afee3d9feeca4"
+    url "https://github.com/xudesheng/quorum/releases/download/v0.5.7/quorum-v0.5.7-linux-x64-musl.tar.gz"
+    sha256 "f8d8879c9f844f6c43d425cc56bc806264388d75616fc6070fcfc272d86215ef"
   end
 
   def install
